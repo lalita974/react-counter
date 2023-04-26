@@ -1,0 +1,101 @@
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1024px;
+  margin: 20px auto;
+}
+
+button {
+  /* Pour hériter de la taille et de la police du parent  */
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  background-color: #fff;
+}
+
+/* HEADER */
+
+header {
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+header div img {
+  height: 80px;
+  width: 70px;
+}
+
+header div p {
+  font-size: 48px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+/* MAIN */
+
+main {
+  margin: 100px 0px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 300px;
+}
+
+.decrement {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.increment {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+main div p {
+  width: 150px;
+  height: 150px;
+  background-color: #5c48d3;
+  font-size: 96px;
+  line-height: 117px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.reset {
+  width: 150px;
+  height: 60px;
+  background: #5c48d3;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
